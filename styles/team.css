@@ -1,0 +1,81 @@
+/* Commom Styles */
+
+body 
+{
+    margin: 0;
+    background-image: url(../images/backgrounds/team-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Left Column Styles */
+.navigation-wrapper > .left-column
+{
+    width: 700px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.left-column > .back > a
+{
+    margin-right: 5px;
+}
+
+.left-column > .back > a > i
+{
+    font-size: 2.5em;
+    color: #cea123;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.left-column > .back > a > i:hover
+{
+    color:#69c6ba;
+}
+* {box-sizing: border-box}
+
+.main
+{
+    margin-top: 53px;
+    margin-bottom: 130px;
+}
+
+.container 
+{
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  margin: 5px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.page-content 
+{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,99 @@
+/* Commom Styles */
+
+body 
+{
+    margin: 0;
+    background-image: url(../images/backgrounds/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Common nav styles */
+.navigation-wrapper 
+{
+    height: 82px;
+    background-color: transparent;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Column Styles */
+.navigation-wrapper > .left-column
+{
+    width: 700px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.left-column > .back > a > i
+{
+    font-size: 2.5em;
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.left-column > .back > a > i:hover
+{
+    color:#69c6ba;
+}
+
+
+.left-column > .reco-logo > i
+{
+    font-size: 2.5em;
+    margin-left: 1144px;
+    color:white;
+}
+
+
+                                                /* Hero section styles */
+.hero-section {
+    
+    height: 490px;
+    margin-left: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: right;
+}
+
+
+.hero-section > .top-heading
+{
+   
+    color:white;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 1.5em;
+    margin-left: 100px;
+    transition: 0.5s;
+}
+
+.submit
+{
+    margin-top: 200px;
+    font-size: 1.25em;
+    margin-left: 218px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.result
+{
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.upload:hover
+{
+    color: #69c6ba;
+}
+
+.submit:hover
+{
+    color: #69c6ba;
+}

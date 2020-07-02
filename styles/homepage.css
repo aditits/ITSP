@@ -1,0 +1,152 @@
+/* Commom Styles */
+
+body 
+{
+    margin: 0;
+    background: black;
+}
+
+/* Common nav styles */
+.navigation-wrapper 
+{
+    height: 80px;
+}
+
+/* Left Column Styles */
+.navigation-wrapper > .left-column
+{
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home > a > i
+{
+    font-size: 2.5em;
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home > a > i:hover
+{
+    color:#69c6ba;
+}
+
+.team > a
+{
+    text-decoration: none;
+}
+
+.team > a > h1
+{
+    font-size: 2.5em;
+    color:white;
+    transition: 1s;
+}
+
+.team > a > h1:hover
+{
+    letter-spacing: 1px;
+    color:#69c6ba;
+}
+
+                                                /* Hero section styles */
+.hero-section {
+    
+    height: 630px;
+    background-image: url(../images/backgrounds/banner.jpg);
+    filter: brightness(0.8);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-section > .top-heading {
+   
+    color: black;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 3em;
+    margin-bottom: -100px;
+    margin-left: 100px;
+}
+
+.hero-section > .bottom-heading {
+    color: black;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 100px;
+}
+
+/* Features section styles */
+.features-section {
+    height: 400px;
+    background-color: #69c6ba;
+    border-top: 10px solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.features-section > h1
+{
+    margin-left: 175px;
+    font-size: 3em;
+    width: 290px;
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid white;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) > a
+{
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    color: #11122b;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) > a:hover {
+    letter-spacing: 1px;
+    color: white;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 1.25em;
+    font-family: 'Dancing Script', cursive;
+}
